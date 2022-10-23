@@ -1,0 +1,23 @@
+<div class="w-full h-full rounded-lg relative">
+  <div class="overlay absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.5)] rounded-lg"></div>
+  <img
+    src=""
+    alt=""
+    class="w-full h-full rounded-lg object-top"
+  />
+  <div class="absolute left-5 bottom-5 w-full text-white">
+    <h2 class="font-bold text-3xl mb-5">{{title}}</h2>
+    <div class="flex items-center gap-x-3 mb-8">
+      <span class="py-2 px-4 border border-white rounded-md">
+        Action
+      </span>
+      <span class="py-2 px-4 border border-white rounded-md">
+        Adventure
+      </span>
+      <span class="py-2 px-4 border border-white rounded-md">
+        Drama
+      </span>
+    </div>
+    <button (click)="watchNow()">Watch Now</button>
+  </div>
+</div>
